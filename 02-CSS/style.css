@@ -1,0 +1,34 @@
+﻿body {
+    /*font-family: 'Roboto','Brush Script MT', 'Tahoma','Arial';*/
+    font-family: 'Roboto';
+    /*font-weight: 100;*/
+}
+
+h1 {
+    font-family: 'Playwrite CU';
+    color: grey !important;
+    text-align: center;
+}
+
+h2 {
+    color: grey;
+}
+
+p {
+    font-size: 18px;
+    text-align: justify;
+}
+
+h1 {
+    font-family: 'Playwrite CU';
+    color: blue;
+    text-align: center;
+}
+
+#Intro {
+    color: blue;
+}
+
+.Definition {
+    font-weight: 700;
+}

@@ -6,6 +6,9 @@ https://htmlbook.ru/samhtml/tekst/spetssimvoly
 https://htmlbook.ru/html/attr/common
 
 TODO:
+Google-шрифты должны импортироваться во все страницы через style.css;
+
+DONE:
 Сверстать следующий документ:
 	https://github.com/okovtun/BD_321/blob/master/NumericSystems.pdf
 
