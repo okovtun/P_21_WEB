@@ -4,6 +4,7 @@ https://www.youtube.com/playlist?list=PLeqyOOqxeiINmqv9gabB4QZVc0YaVHH-v
 TOREAD:
 https://htmlbook.ru/samhtml/tekst/spetssimvoly
 https://htmlbook.ru/html/attr/common
+https://www.ixbt.com/cpu/cpu-digest-2009.shtml
 
 TODO:
 Google-шрифты должны импортироваться во все страницы через style.css;
