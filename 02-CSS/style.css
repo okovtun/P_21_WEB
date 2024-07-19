@@ -4,11 +4,14 @@ body {
     /*font-family: 'Roboto','Brush Script MT', 'Tahoma','Arial';*/
     font-family: 'Roboto';
     /*font-weight: 100;*/
+    background-color: darkblue;
+    background-image: url(pcbTexture.jpg);
+    background-attachment:fixed;
 }
 
 h1 {
     font-family: 'Playwrite CU', 'Segoe Script', 'Arial', sans-serif;
-    color: grey !important;/*Костыль (Ad-Hoc решение)*/
+    color: grey !important; /*Костыль (Ad-Hoc решение)*/
     text-align: center;
 }
 
@@ -19,6 +22,7 @@ h2 {
 p {
     font-size: 18px;
     text-align: justify;
+    background-color: rgba(0, 155, 0, .5);
 }
 
 /*h1 {
@@ -36,19 +40,36 @@ p {
 }
 
 p > b {
-/*<b> непосредственно вложен в <p>*/
-    color:forestgreen;
+    /*<b> непосредственно вложен в <p>*/
+    color: forestgreen;
 }
-p   i {
-    text-decoration:underline;
+
+p i {
+    text-decoration: underline;
 }
+
 h1 ~ h2 {
     /*+ - дескрипторы строго следуют один за другим*/
     /*~ - между десткрипторами могут встречаться другие дескрипторы*/
-    color:hotpink;
+    color: hotpink;
 }
+
 h1 + h2 {
     /*+ - дескрипторы строго следуют один за другим*/
     /*~ - между десткрипторами могут встречаться другие дескрипторы*/
-    color:red;
+    color: red;
+}
+
+img {
+    /*align-content:center;*/
+    border: solid;
+    width: 50%;
+    /*height:30%;*/
+    /*position:absolute;*/
+    /*padding:initial;*/
+    float: right;
+    /*margin-left:5%;
+    margin-right:5%;
+    margin-bottom:5%;*/
+    margin: 5% 5% 5%;
 }
