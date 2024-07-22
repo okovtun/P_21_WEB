@@ -5,6 +5,9 @@ TOREAD:
 https://htmlbook.ru/samhtml/tekst/spetssimvoly
 https://htmlbook.ru/html/attr/common
 
+MDN - Mozilla Developer Network:
+https://developer.mozilla.org/ru/docs/Web/HTML/Element/ol
+
 TODO:
 Google-шрифты должны импортироваться во все страницы через style.css;
 

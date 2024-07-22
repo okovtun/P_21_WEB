@@ -1,0 +1,25 @@
+﻿body
+{
+	font-size:32px;
+	background-color:lightgreen;
+}
+ol {
+	list-style-type:georgian;
+}
+ul{
+	list-style:disc;
+	color:blue;
+	text-align:justify;
+	list-style-position:inside;
+}
+.bitcoin {
+	list-style-image: url(img/bitcoin.svg);
+	/*
+		ICO	- Raster;
+		JPG	- Raster;
+		PNG	- Raster;
+		BMP	- Raster;
+		SVG - Scaleable Vector Graphics;
+		GIF - Vector, Animation;
+	*/
+}

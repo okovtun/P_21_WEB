@@ -1,29 +1,29 @@
 ﻿@import url('https://fonts.googleapis.com/css2?family=Playwrite+CU:wght@100..400&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
 body {
-    /*font-family: 'Roboto','Brush Script MT', 'Tahoma','Arial';*/
-    font-family: 'Roboto';
-    /*font-weight: 100;*/
-    background-color:blue;
-    background-image:url(img/background/pcbTexture2.jpg);
-    background-size:unset;
-    background-attachment:fixed;
+	/*font-family: 'Roboto','Brush Script MT', 'Tahoma','Arial';*/
+	font-family: 'Roboto';
+	/*font-weight: 100;*/
+	background-color: blue;
+	background-image: url(img/background/pcbTexture2.jpg);
+	background-size: unset;
+	background-attachment: fixed;
 }
 
 h1 {
-    font-family:  'Playwrite CU', Arial, sans-serif;
-    color: grey;
-    text-align: center;
+	font-family: 'Playwrite CU', Arial, sans-serif;
+	color: grey;
+	text-align: center;
 }
 
 h2 {
-    color: grey;
+	color: grey;
 }
 
 p {
-    font-size: 18px;
-    text-align: justify;
-    background-color:rgba(96, 211, 102, 0.350);
+	font-size: 18px;
+	text-align: justify;
+	background-color: rgba(96, 211, 102, 0.350);
 }
 
 /*h1 {
@@ -33,13 +33,47 @@ p {
 }*/
 
 img {
-    float:left;
+	float: left;
 }
 
 #Intro {
-    color: blue;
+	color: blue;
 }
 
 .Definition {
-    font-weight: 700;
+	font-weight: 700;
 }
+
+div {
+	background:green;
+	width:100px;
+	height:100px;
+}
+	div:hover {
+		background:blue;
+		width:200px;
+	}
+
+a {
+	color: aliceblue;
+	background: yellow;
+}
+
+	a:link {
+		color: darkblue;
+		background: orange;
+	}
+
+	a:visited {
+		color: red;
+		background: black;
+	}
+
+	a:hover {
+		color: green;
+		font-size:30px;/*Не надо так делать, потому что страница прыгает как невменяемая))*/
+	}
+
+	a:active {
+		color: slategrey;
+	}
