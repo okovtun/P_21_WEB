@@ -22,7 +22,15 @@ h2 {
 p {
     font-size: 18px;
     text-align: justify;
-    background-color: rgba(0, 155, 0, .5);
+    /*background-color: rgba(0, 155, 0, .5);*/
+	/*border-width:10px;
+	border-top:solid;
+	border-top-width:5px;
+	border-style:solid;*/
+	border-style:solid;
+	border-width:5px 10px 15px 25px;
+	padding:10px;
+	margin:20px 15px 30px;
 }
 
 /*h1 {
@@ -51,7 +59,7 @@ p i {
 h1 ~ h2 {
     /*+ - дескрипторы строго следуют один за другим*/
     /*~ - между десткрипторами могут встречаться другие дескрипторы*/
-    color: hotpink;
+    color: darkblue;
 }
 
 h1 + h2 {
@@ -72,4 +80,55 @@ img {
     margin-right:5%;
     margin-bottom:5%;*/
     margin: 5% 5% 5%;
+}
+
+table {
+/*Рамка*/
+	border:2px;
+	border-style:solid;
+	border-collapse:collapse;
+	/*Выравнивание таблицы*/
+	margin-left:auto;
+	margin-right:auto;
+	width:700px;
+	background-color:aliceblue;
+}
+	table caption {
+		background-color:antiquewhite;
+		text-align:left;
+		font-style:italic;
+	}
+	table th {
+		border: 1px solid;
+		padding:20px;
+		color:white;
+		background-color:rgb(107, 95, 181);
+	}
+	table td{
+		border: 1px solid;
+		text-align:center;
+	}
+.RowHeader {
+	font-weight:500;
+	padding:5px;
+	text-align:left;
+}
+.Present {
+/*Присутствует*/
+background:lightgreen;
+}
+.NA {
+	/*Not Available - недоступно*/
+	background-color:palevioletred;
+}
+/*Ссылки:*/
+h4 {
+	text-align:center;
+}
+a {
+}
+/*Содержание*/
+ul {
+	background-color:rgb(240, 248, 255, .8);
+	list-style:none;
 }
