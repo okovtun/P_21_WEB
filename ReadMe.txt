@@ -6,6 +6,11 @@ https://htmlbook.ru/samhtml/tekst/spetssimvoly
 https://htmlbook.ru/html/attr/common
 
 TODO:
+Напсать тест на пять вопросов. Должен быть вопрос с один вариантом ответа, 
+несколькими вариантами ответа, выбор картинок.
+В начале теста студент должен вписать свое ФИО и выбрать группу из выпадающего списка.
+
+DONE:
 Сверстать и прочитать эту статью:https://www.ixbt.com/cpu/cpu-digest-2009.shtml
 
 DONE:
