@@ -1,0 +1,50 @@
+﻿body
+{
+}
+.main_window {
+	border:solid 5px blue;
+	background:silver;
+	width:400px;
+	height:300px;
+
+	position:relative;
+	top:150px;
+	left:400px;
+
+	border-top-left-radius:8px;
+	border-top-right-radius:8px;
+}
+.title_bar {
+/*Строка заголовка*/
+/*position:absolute;*/
+	background-color:blue;
+	width:400px;
+	height:32px;
+
+	display:flex;
+	align-items:center;
+	justify-content:space-between;
+	font-family:Tahoma;
+	color:white;
+
+	border-top-left-radius:8px;
+	border-top-right-radius:8px;
+}
+.title_bar_left_side,
+.title_bar_right_side {
+	position: relative;
+	height: 32px;
+	display: flex;
+	align-items: center;
+}
+.app_icon {
+	width:24px;
+	height:24px;
+}
+.window_control_buttons {
+	
+}
+.control_button {
+	width:24px;
+	height:24px;
+}
